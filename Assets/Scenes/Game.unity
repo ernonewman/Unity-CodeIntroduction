@@ -404,4 +404,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SizeModifier: 2.5
   newName: Cubey1337
-  isRotated: 0
+  isRotated: 1

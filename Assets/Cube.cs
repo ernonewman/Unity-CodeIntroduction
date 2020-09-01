@@ -15,6 +15,11 @@ public class Cube : MonoBehaviour
     {
         transform.localScale *= SizeModifier;
         transform.name = newName;
+
+        if (isRotated)
+        {
+            transform.localEulerAngles = Vector3.one * 45;
+        }
     }
 
     // Called once per frame
